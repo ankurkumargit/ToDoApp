@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: white;
+  color: #0000809e;
+  padding: 7px 20px;
+  cursor: pointer;
+  border: 1px solid #0000809e;
+  border-radius: 5px;
+  transition: 0.4s ease;
+}
+
+.btn:hover {
+  background: #0000809e;
+  color: #fff;
+}
+
+.btn:focus {
+  outline: none;
+}
+.btn:active {
+  transform: scale(0.9);
+}
+.modal {
+  font-size: 12px;
+}
+.header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.popupBtn {
+  float: right;
+  margin-right: 10px;
+}
